@@ -1,0 +1,2 @@
+# Dealtracker-CRM
+ The Dealtracker Sidebar is Firefox sidebar extension that loads and saves data associated with a website as you surf the web. You just type notes or data about the site you are currently on and click 'Save'. When you visit that site again, you see associated data. The original concept was modeled for use in making business deals with various websites. This method is far more efficient than using spreadsheets or manual methods. You can access a spreadsheet-like view of your data as a whole in the "Records View" area of the application.
