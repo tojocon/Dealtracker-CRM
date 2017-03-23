@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://dealtracker/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://dealtracker/locale/overlay.dtd">
+<overlay id="dealtracker-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="dealtracker-strings" src="chrome://dealtracker/locale/overlay.properties"/>
+  </stringbundleset>
+
+
+
+  <menupopup id="viewSidebarMenu">
+    <menuitem observes="viewSidebar_dealtracker" />
+  </menupopup>
+
+  <broadcasterset id="mainBroadcasterSet">
+    <broadcaster id="viewSidebar_dealtracker"
+                 label="Tojocon DEALTRACKER"
+                 autoCheck="false"
+                 type="checkbox"
+                 group="sidebar"
+                 sidebarurl="chrome://dealtracker/content/ff-sidebar.xul"
+                 sidebartitle="Tojocon DEALTRACKER"
+                 oncommand="toggleSidebar('viewSidebar_dealtracker');" />
+  </broadcasterset>
+
+</overlay>

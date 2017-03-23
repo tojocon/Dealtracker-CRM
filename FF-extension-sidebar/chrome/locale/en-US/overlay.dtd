@@ -1,0 +1,8 @@
+<!ENTITY dealtracker.label "Your localized menuitem">
+<!ENTITY dealtrackerContext.label "Your Menuitem">
+<!ENTITY dealtrackerContext.accesskey "Y">
+<!ENTITY dealtrackerToolbarButton.label "Your Toolbar Button">
+<!ENTITY dealtrackerToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY dealtrackerSidebar.label "Your Sidebar">
+<!ENTITY dealtrackerToolbar.name  "example">
+<!ENTITY dealtrackerToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &dealtrackerToolbar.name;">

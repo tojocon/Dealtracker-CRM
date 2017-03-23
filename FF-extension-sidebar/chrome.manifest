@@ -1,0 +1,6 @@
+content   dealtracker                 chrome/content/
+skin      dealtracker   classic/1.0   chrome/skin/
+locale    dealtracker   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://dealtracker/content/ff-overlay.xul
