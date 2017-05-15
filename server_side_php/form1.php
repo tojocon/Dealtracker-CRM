@@ -18,11 +18,8 @@
   
   
   //prevent_short_logoff(); // this will load a recent access from thsi ip and load the profile from server side temo file containing username and password is time is less than 5 secs and ip matches.
-  
-  
-//require '../ext_app_sec/db_connect.php';//already there
-require '../ext_app_sec/check_login.php';
 
+require '../ext_app_sec/check_login.php';
 
 
   if ($logged_in == 1){
@@ -44,7 +41,7 @@ if (strstr($_SESSION["access_groups"], $mygroup)){
           $active_group="linksourcers";
   
    } else{
-      //die ("died at condition :  if (strstr($_SESSION[access_groups], linksourcers)){");
+   
       header('Location: ../ext_app_sec/login.php?site='.$_GET["site"]);
       }   //end inner else
     
